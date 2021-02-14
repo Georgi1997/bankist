@@ -1,0 +1,21 @@
+//Simple array methods
+
+
+Array methods - arrays themselves are also objects. These array methods are simply functions that are attached to all arrays that we create in javascript. Arrays are objects, and they get access to special built in methods that we can essentially see as tools for arrays.
+
+//Splice method - works almost the same as slice method but the fundamental difference is that it does actually change the original array. It mutates it.
+
+//Reverse method - reverse and mutates the OG array
+
+//concat method - used to concatenate 2 arrays, doesn't mutate OG arrays
+
+
+///////Looping arrays: forEach
+
+forEach passed in the current element, current index and the entire array that we are looping, therefore we can specify them in the parameter list, in order -> current element, index, array!
+
+When to use forEach or for of - the difference between them is that you cannot break out of a forEach loop so the continue and break statements do not work in the forEach, so instead forEach will always loop over the entire array and there is nothing that you can do about it.
+
+///////////forEach with maps and sets
+
+Sets = key and values are the same
